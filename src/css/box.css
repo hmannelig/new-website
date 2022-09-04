@@ -3,6 +3,7 @@
 .box {
   /* border: white solid 1px; */
   display: flex;
+  flex-direction: column;
   min-width: 120vh;
   height: 40vmin;
   align-items: center;

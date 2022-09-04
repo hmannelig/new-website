@@ -7,10 +7,21 @@ class Page extends React.Component {
     return (
       <div className="page">
         <body className="page-body">
-          <Box></Box>
-          <Box></Box>
-          <Box></Box>
-          <Box></Box>
+          <Box
+            title={"This is box one"}
+            subtitle={"This is subtitle one"}
+            paragraph={"This is paragraph one"}
+          ></Box>
+          <Box
+            title={"This is box one"}
+            subtitle={"This is subtitle one"}
+            paragraph={"This is paragraph one"}
+          ></Box>
+          <Box
+            title={"This is box one"}
+            subtitle={"This is subtitle one"}
+            paragraph={"This is paragraph one"}
+          ></Box>
         </body>
       </div>
     );

@@ -5,9 +5,12 @@ class Box extends React.Component {
   render() {
     return (
       <div className="box">
-        <div>A</div>
+        <h1>{this.props.title}</h1>
+        <h3>{this.props.subtitle}</h3>
+        <p>{this.props.paragraph}</p>
+        {/* <div>A</div>
         <div>B</div>
-        <div>C</div>
+        <div>C</div> */}
       </div>
     );
   }
