@@ -1,0 +1,20 @@
+@import "./color-palette.css";
+
+.box {
+  /* border: white solid 1px; */
+  display: flex;
+  min-width: 120vh;
+  height: 40vmin;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  /* background-color: var(--max-yellow-red); */
+  /* background: linear-gradient(
+    var(--max-yellow-red),
+    var(--egg-yellow),
+    var(--bright-yellow-crayola)
+  ); */
+
+  background-color: var(--eerie-black);
+  color: var(--egg-yellow);
+}

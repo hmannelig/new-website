@@ -1,0 +1,28 @@
+:root {
+  --main-bg-colour-dark: #282c34;
+  --main-bg-colour-mid: #353b45;
+  --main-bg-colour-light: #474e5c;
+  --main-bg-colour: #393e41;
+  --gray: #d3d0cb;
+  --light-gray: #e7e5df;
+  --marine-blue: #44bba4;
+  --gray-blue: #508484;
+  --egg-yellow: #e7bb41;
+  --sizzling-red: #e84855;
+  --persian-green: #1b998b;
+  --space-cadet: #2d3047;
+
+  --red-pigment: #ee2e31;
+  --peach-crayola: #f4c095;
+  --wintergreen-dream: #679289;
+  --myrtle-green: #1d7874;
+  --dark-jungle-green: #071e22;
+
+  --bright-yellow-crayola: #faa916;
+  --max-yellow-red: #fccc73;
+  --white: #fbfffe;
+  --dim-gray: #6d676e;
+  --eerie-black: #1b1b1e;
+  --eerie-black-dark: #131315;
+  --carmine: #96031a;
+}
