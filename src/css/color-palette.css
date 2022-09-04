@@ -25,4 +25,17 @@
   --eerie-black: #1b1b1e;
   --eerie-black-dark: #131315;
   --carmine: #96031a;
+
+  /* Spotify Colours */
+  --spotify-green: #1DB954;
+  --spotify-green-light: #1ed760;
+  --spotify-black: #191414;
+  --spotify-smooky-black: #171212;
+  --spotify-rich-black-FOGRA: #0b0909;
+
+  --cyan-process: #01baef;
+  --max-blue-green: #0CBABA;
+  --russian-violet: #380036;
+  --dark-purple: #26081C;
+  --xiketic: #150811;
 }

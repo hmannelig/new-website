@@ -5,7 +5,7 @@
 }
 
 .page-body {
-  background: var(--eerie-black-dark);
+  background: var(--spotify-black);
   /* border: white solid 2px; */
   min-height: 100vh;
   display: flex;
