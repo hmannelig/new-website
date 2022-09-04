@@ -1,11 +1,73 @@
 @import "./color-palette.css";
+
 .App {
+  font-family: "proxima-nova", sans-serif;
   text-align: center;
-  /* overflow: hidden; */
+  /* width: 100%; */
+  overflow: hidden;
+  /* scrollbar-color: var(--spotify-rich-black-FOGRA) var(--spotify-gray-light); */
+}
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+  .App .App-body {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .App .App-body {
+    width: 100%;
+  }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .App .App-body {
+    width: 100%;
+  }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .App .App-body {
+    width: 100%;
+  }
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .App,
+  .App-body {
+    width: 100%;
+  }
+} */
+
+.App h1 {
+  color: var(--spotify-green);
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  scrollbar-color: var(--spotify-gray-light) var(--spotify-rich-black-FOGRA);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--spotify-rich-black-FOGRA);
+}
+
+::-webkit-scrollbar {
+  width: 2em;
+  height: 2em;
+  /* display: none; */
+  background: var(--spotify-rich-black-FOGRA);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--spotify-green);
+  border-radius: 15px;
+  max-height: 10px;
+  /* border: 3px solid var(--spotify-green); */
 }
 
 .App-logo {
@@ -33,6 +95,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* background-size: 100%; */
 }
 
 .App-link {
@@ -81,4 +144,8 @@ footer {
   ); */
   background-color: var(--spotify-rich-black-FOGRA);
   height: 25vh;
+}
+
+.App-header .paragraph {
+  color: var(--spotify-gray-light);
 }
