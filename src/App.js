@@ -11,7 +11,7 @@ function App() {
           Full stack <b>software engineer</b>, <b>geographer</b> and{" "}
           <b>powerlifter</b>.
         </h3>
-        <p className="paragraph">
+        <p>
           Java, Python, SQL, Machine Learning, React, Spring Boot
         </p>
         <li>+44 7427 565031</li> <li>pablo.berjon.galan@gmail.com</li>

@@ -43,10 +43,10 @@
     width: 100%;
   }
 } */
-
+/* 
 .App h1 {
   color: var(--spotify-green);
-}
+} */
 
 ::-webkit-scrollbar {
   scrollbar-color: var(--spotify-gray-light) var(--spotify-rich-black-FOGRA);
@@ -144,8 +144,4 @@ footer {
   ); */
   background-color: var(--spotify-rich-black-FOGRA);
   height: 25vh;
-}
-
-.App-header .paragraph {
-  color: var(--spotify-gray-light);
 }
