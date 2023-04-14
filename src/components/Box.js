@@ -1,16 +1,19 @@
 import React from "react";
 import "../css/box.css";
+import SmallBox from "./smallbox/SmallBox";
 
 class Box extends React.Component {
   render() {
     return (
       <div className="box">
-        <h1>{this.props.title}</h1>
+        {/* <h1>{this.props.title}</h1>
         <h3>{this.props.subtitle}</h3>
-        <p>{this.props.paragraph}</p>
-        {/* <div>A</div>
-        <div>B</div>
-        <div>C</div> */}
+        <p>{this.props.paragraph}</p> */}
+        <div className="small-boxes-container">
+          <SmallBox />
+          <SmallBox />
+          <SmallBox />
+        </div>
       </div>
     );
   }

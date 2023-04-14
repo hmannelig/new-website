@@ -14,8 +14,6 @@ function App() {
         <p>
           Java, Python, SQL, Machine Learning, React, Spring Boot
         </p>
-        <li>+44 7427 565031</li> <li>pablo.berjon.galan@gmail.com</li>
-        <li>https://www.linkedin.com/in/pabloberjon/</li>
       </header>
       <body className="App-body">
         <Page />

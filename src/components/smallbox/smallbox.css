@@ -1,0 +1,64 @@
+@import "../../css/color-palette.css";
+
+/* Set up base font size and media query breakpoints */
+:root {
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+
+  --breakpoint-small: 480px;
+  --breakpoint-medium: 768px;
+  --breakpoint-large: 1024px;
+}
+
+/* Apply responsive font sizes to different screen sizes */
+h5 {
+  font-size: var(--font-size-medium);
+}
+
+@media (min-width: var(--breakpoint-small)) {
+  h5 {
+    font-size: var(--font-size-large);
+  }
+}
+
+/* Define responsive layout for small boxes */
+.small-box {
+  width: 90%;
+  height: auto;
+  margin: 5%;
+  border-radius: 2.5%;
+  background-color: var(--spotify-smooky-black);
+}
+
+.picture-container {
+  width: 70%;
+  height: auto;
+  margin: 15% auto 0;
+  background-color: aliceblue;
+  border-radius: 2.5%;
+}
+
+/* Apply responsive hover effect for small boxes */
+.small-box:hover {
+  background-color: var(--spotify-smooky-black-light);
+  cursor: pointer;
+}
+
+/* Apply responsive font and text color to links */
+a {
+  font-size: var(--font-size-small);
+  color: var(--spotify-green);
+}
+
+@media (min-width: var(--breakpoint-medium)) {
+  a {
+    font-size: var(--font-size-medium);
+  }
+}
+
+@media (min-width: var(--breakpoint-large)) {
+  a {
+    font-size: var(--font-size-large);
+  }
+}

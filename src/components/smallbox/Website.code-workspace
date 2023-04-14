@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"path": "../../../../Flutter Beginner"
+	}
+],
+  "settings": {
+    "workbench.colorTheme": "Ayu Mirage Plus Green",
+    "git.ignoreLimitWarning": true
+  }
+}

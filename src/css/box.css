@@ -2,9 +2,10 @@
 
 .box {
   /* border: white solid 1px; */
+  padding: 50px;
   display: flex;
   flex-direction: column;
-  min-width: 120vh;
+  min-width: 100vh;
   height: 40vmin;
   align-items: center;
   justify-content: center;
@@ -18,4 +19,15 @@
 
   background-color: var(--spotify-rich-black-FOGRA);
   color: var(--spotify-green);
+}
+
+.small-boxes-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .box {
+    height: auto;
+  }
 }

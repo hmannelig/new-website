@@ -27,17 +27,19 @@
   --carmine: #96031a;
 
   /* Spotify Colours */
-  --spotify-green: #1DB954;
+  --spotify-green: #1db954;
   --spotify-green-light: #1ed760;
   --spotify-black: #191414;
   --spotify-smooky-black: #171212;
+  --spotify-smooky-black-light: #221c1c;
   --spotify-rich-black-FOGRA: #0b0909;
+  --spotify-black-coffee: #2e2424;
   --spotify-gray: #89a9a9;
-  --spotify-gray-light: #ACC3C3;
+  --spotify-gray-light: #acc3c3;
 
   --cyan-process: #01baef;
-  --max-blue-green: #0CBABA;
+  --max-blue-green: #0cbaba;
   --russian-violet: #380036;
-  --dark-purple: #26081C;
+  --dark-purple: #26081c;
   --xiketic: #150811;
 }
