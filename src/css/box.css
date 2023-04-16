@@ -1,22 +1,15 @@
 @import "./color-palette.css";
 
 .box {
-  /* border: white solid 1px; */
-  padding: 50px;
+  padding: 5vw;
   display: flex;
   flex-direction: column;
-  min-width: 100vh;
-  height: 40vmin;
+  width: 100%;
+  max-width: 800px;
+  min-height: 40vh;
   align-items: center;
   justify-content: center;
-  border-radius: 30px;
-  /* background-color: var(--max-yellow-red); */
-  /* background: linear-gradient(
-    var(--max-yellow-red),
-    var(--egg-yellow),
-    var(--bright-yellow-crayola)
-  ); */
-
+  border-radius: 3em;
   background-color: var(--spotify-rich-black-FOGRA);
   color: var(--spotify-green);
 }
@@ -26,8 +19,8 @@
   flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .box {
-    height: auto;
+    padding: 3rem;
   }
 }
