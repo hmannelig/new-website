@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/Top.css";
-import myPicture from "../resources/profile_pic.png";
+import "./Top.css";
+import myPicture from "../../resources/profile_pic.png";
 
 class Top extends React.Component {
   constructor(props) {

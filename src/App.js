@@ -1,12 +1,12 @@
 import "./css/App.css";
-import Page from "./components/Page";
-import Top from "./components/Top";
+import Page from "./components/page/Page";
+import Top from "./components/top/Top";
 
 // import Box from "./components/Box";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <header className="App-header">
         <Top />
       </header>
@@ -14,7 +14,7 @@ function App() {
         <Page />
       </body>
       <footer />
-    </div>
+    </main>
   );
 }
 

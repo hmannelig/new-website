@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/Page.css";
-import Box from "./Box";
+import "./Page.css";
+import Box from "../box/Box";
 
 class Page extends React.Component {
   render() {

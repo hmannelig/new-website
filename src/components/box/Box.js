@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/box.css";
-import SmallBox from "./smallbox/SmallBox";
+import "./Box.css";
+import SmallBox from "../smallbox/SmallBox";
 
 class Box extends React.Component {
   render() {
